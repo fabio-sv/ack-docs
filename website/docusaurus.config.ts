@@ -71,7 +71,7 @@ const config: Config = {
 
   themeConfig: {
     // Social card for link previews (Twitter, Slack, etc.)
-    image: "img/ack-logo.png",
+    image: "img/ack-social.png",
     announcementBar: {
       id: "under_development",
       content:
