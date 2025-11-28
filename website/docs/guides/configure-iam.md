@@ -371,9 +371,9 @@ For production, create custom policies with least-privilege permissions instead 
 
 ## Next Steps
 
-- [Create your first resource](/docs/guides/create-resource)
-- [Configure cross-account access](/docs/guides/cross-account)
-- [Understand permissions overview](/docs/guides/permissions)
+- [Create your first resource](/guides/create-resource)
+- [Configure cross-account access](/guides/cross-account)
+- [Understand permissions overview](/guides/permissions)
 
 ## Additional Resources
 

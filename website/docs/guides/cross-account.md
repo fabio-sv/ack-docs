@@ -373,6 +373,6 @@ Look for messages about role assumption failures or selector conflicts.
 
 ## Next Steps
 
-- [Configure deletion policies](/docs/guides/deletion-policy) for cross-account resources
-- [Set up cross-region deployments](/docs/guides/multi-region)
-- [Adopt existing resources](/docs/guides/adoption) in target accounts
+- [Configure deletion policies](/guides/deletion-policy) for cross-account resources
+- [Set up cross-region deployments](/guides/multi-region)
+- [Adopt existing resources](/guides/adoption) in target accounts

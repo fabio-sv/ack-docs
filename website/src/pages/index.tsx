@@ -28,7 +28,7 @@ function HomepageHeader() {
           <div className={styles.buttons}>
             <Link
               className="button button--primary"
-              to="/docs/getting-started"
+              to="/getting-started"
             >
               Get Started
             </Link>
@@ -146,7 +146,7 @@ function QuickLinks() {
             </Link>
           </div>
           <div className="col col--3">
-            <Link to="/docs/guides/create-resource" className={styles.quickLink}>
+            <Link to="/guides/create-resource" className={styles.quickLink}>
               <h3>Managing Resources</h3>
               <p>
                 Learn how to create, update, adopt, and manage AWS resources
@@ -155,7 +155,7 @@ function QuickLinks() {
             </Link>
           </div>
           <div className="col col--3">
-            <Link to="/docs/getting-started" className={styles.quickLink}>
+            <Link to="/getting-started" className={styles.quickLink}>
               <h3>Getting Started</h3>
               <p>
                 Install your first controller and create AWS resources in
@@ -164,7 +164,7 @@ function QuickLinks() {
             </Link>
           </div>
           <div className="col col--3">
-            <Link to="/docs/contributing" className={styles.quickLink}>
+            <Link to="/contributing" className={styles.quickLink}>
               <h3>Contributing</h3>
               <p>
                 Join the community and help build the future of cloud-native AWS

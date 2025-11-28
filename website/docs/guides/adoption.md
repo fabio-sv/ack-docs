@@ -153,6 +153,6 @@ Once a resource is adopted:
 
 ## Next Steps
 
-- [Configure deletion policies](/docs/guides/deletion-policy) - Control what happens when you delete adopted resources
-- [Use read-only mode](/docs/guides/readonly) - Observe resources without managing them
-- [Set up advanced IAM roles](/docs/guides/cross-account) - Adopt resources in different AWS accounts
+- [Configure deletion policies](/guides/deletion-policy) - Control what happens when you delete adopted resources
+- [Use read-only mode](/guides/readonly) - Observe resources without managing them
+- [Set up advanced IAM roles](/guides/cross-account) - Adopt resources in different AWS accounts

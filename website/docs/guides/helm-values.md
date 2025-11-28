@@ -58,7 +58,7 @@ image:
 - **Description**: Number of controller replicas to run
 
 :::warning
-Running multiple replicas requires [leader election](/docs/guides/leader-election) to be properly configured to avoid conflicts.
+Running multiple replicas requires [leader election](/guides/leader-election) to be properly configured to avoid conflicts.
 :::
 
 ## Pod Scheduling
@@ -171,7 +171,7 @@ Adjust resource limits based on your cluster size and resource count. Controller
 - **Description**: Determines whether the controller watches all namespaces (cluster) or specific namespaces (namespace)
 
 :::info
-Setting `installScope: namespace` automatically configures namespace-scoped RBAC. See [Permissions Overview](/docs/guides/permissions) for details.
+Setting `installScope: namespace` automatically configures namespace-scoped RBAC. See [Permissions Overview](/guides/permissions) for details.
 :::
 
 ### `watchNamespace`
@@ -282,7 +282,7 @@ serviceAccount:
 
 ## Cross-Account Resource Management
 
-For cross-account resource management, use the **IAMRoleSelector** feature gate (recommended) or CARM feature gates. See [Granular IAM Roles](/docs/guides/cross-account) for setup instructions.
+For cross-account resource management, use the **IAMRoleSelector** feature gate (recommended) or CARM feature gates. See [Granular IAM Roles](/guides/cross-account) for setup instructions.
 
 ## Feature Gates
 

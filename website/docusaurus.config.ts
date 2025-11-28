@@ -15,14 +15,14 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: "https://aws-controllers-k8s.github.io",
+  url: "https://a-hilaly.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/docs/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "aws-controllers-k8s", // Usually your GitHub org/user name.
+  organizationName: "a-hilaly", // Usually your GitHub org/user name.
   projectName: "docs", // Usually your repo name.
 
   onBrokenLinks: "throw",
@@ -40,6 +40,7 @@ const config: Config = {
       "classic",
       {
         docs: {
+          routeBasePath: "/",
           sidebarPath: "./sidebars.ts",
           editUrl:
             "https://github.com/aws-controllers-k8s/docs/tree/main/website/",
@@ -123,7 +124,7 @@ const config: Config = {
           items: [
             {
               label: "Getting Started",
-              to: "/docs/getting-started",
+              to: "/getting-started",
             },
             {
               label: "Controllers",

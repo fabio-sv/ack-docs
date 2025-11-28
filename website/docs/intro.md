@@ -184,7 +184,7 @@ Browse the complete list with installation instructions, version info, and maint
 - **Deletion Policies** - Choose whether to retain or delete AWS resources when removing Kubernetes objects
 - **Drift Detection** - Automatically reconcile manual changes back to desired state
 
-[Learn how to manage resources →](/docs/guides/create-resource)
+[Learn how to manage resources →](/guides/create-resource)
 
 ## Getting Started
 

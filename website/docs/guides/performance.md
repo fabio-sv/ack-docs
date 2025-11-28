@@ -130,6 +130,6 @@ The [EC2 ACK Controller Performance Case Study](https://github.com/aws-controlle
 
 ## Next Steps
 
-- [Configure Helm values](/docs/guides/helm-values) - Full list of configuration options
-- [Feature gates](/docs/guides/feature-gates) - Enable experimental features
-- [Monitor your controllers](/docs/guides/monitoring) - Set up metrics and alerting
+- [Configure Helm values](/guides/helm-values) - Full list of configuration options
+- [Feature gates](/guides/feature-gates) - Enable experimental features
+- [Monitor your controllers](/guides/monitoring) - Set up metrics and alerting

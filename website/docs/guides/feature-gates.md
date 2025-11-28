@@ -10,9 +10,9 @@ ACK controllers support feature gates that enable or disable specific functional
 
 | Feature Gate | Stage | Default | Description |
 |-------------|-------|---------|-------------|
-| **ResourceAdoption** | Beta | Enabled | Import existing AWS resources into ACK management using adoption annotations. [Learn more](/docs/guides/adoption) |
-| **ReadOnlyResources** | Beta | Enabled | Observe AWS resources without ACK managing them using read-only annotation. [Learn more](/docs/guides/readonly) |
-| **IAMRoleSelector** | Alpha | Disabled | Use IAMRoleSelector CRD for dynamic IAM role mapping to namespaces and resources. [Learn more](/docs/guides/cross-account) |
+| **ResourceAdoption** | Beta | Enabled | Import existing AWS resources into ACK management using adoption annotations. [Learn more](/guides/adoption) |
+| **ReadOnlyResources** | Beta | Enabled | Observe AWS resources without ACK managing them using read-only annotation. [Learn more](/guides/readonly) |
+| **IAMRoleSelector** | Alpha | Disabled | Use IAMRoleSelector CRD for dynamic IAM role mapping to namespaces and resources. [Learn more](/guides/cross-account) |
 | **ServiceLevelCARM** | Alpha | Disabled | Enable CARM (Cross-Account Resource Management) for service-level resources |
 | **TeamLevelCARM** | Alpha | Disabled | Enable CARM (Cross-Account Resource Management) for team-level resources |
 
@@ -51,6 +51,6 @@ Enabling IAMRoleSelector disables CARM features. These features cannot be used t
 
 ## Next Steps
 
-- [Resource adoption](/docs/guides/adoption) - Import existing AWS resources
-- [ReadOnly resources](/docs/guides/readonly) - Observe resources without managing them
-- [Advanced IAM roles](/docs/guides/cross-account) - Configure IAMRoleSelector for multi-account management
+- [Resource adoption](/guides/adoption) - Import existing AWS resources
+- [ReadOnly resources](/guides/readonly) - Observe resources without managing them
+- [Advanced IAM roles](/guides/cross-account) - Configure IAMRoleSelector for multi-account management

@@ -177,7 +177,7 @@ kubectl rollout restart deployment -n $ACK_SYSTEM_NAMESPACE \
   ack-${SERVICE}-controller
 ```
 
-See the [Configure IAM Permissions guide](/docs/guides/configure-iam) for more details.
+See the [Configure IAM Permissions guide](/guides/configure-iam) for more details.
 
 </TabItem>
 <TabItem value="other" label="Other">
@@ -342,7 +342,7 @@ Congratulations! You've successfully:
 
 ## Common Issues
 
-Here are quick solutions to common problems. For detailed troubleshooting, see the [Troubleshooting Guide](/docs/guides/troubleshooting).
+Here are quick solutions to common problems. For detailed troubleshooting, see the [Troubleshooting Guide](/guides/troubleshooting).
 
 <details>
 <summary><strong>Controller pod not starting</strong></summary>
@@ -389,7 +389,7 @@ Check the `kubectl describe` output for the specific error message.
 
 </details>
 
-See the [Troubleshooting Guide](/docs/guides/troubleshooting) for more detailed solutions.
+See the [Troubleshooting Guide](/guides/troubleshooting) for more detailed solutions.
 
 ## Installing Additional Controllers
 
@@ -448,6 +448,6 @@ Remember to configure appropriate IAM permissions for each controller.
 
 ## Getting Help
 
-- **Documentation**: Check the [Managing Resources](/docs/guides/adoption) guides
+- **Documentation**: Check the [Managing Resources](/guides/adoption) guides
 - **Slack**: Join [#aws-controllers-k8s](https://kubernetes.slack.com/messages/aws-controllers-k8s)
 - **GitHub**: Search [existing issues](https://github.com/aws-controllers-k8s/community/issues) or open a new one

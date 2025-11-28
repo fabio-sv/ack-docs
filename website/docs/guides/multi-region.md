@@ -82,5 +82,5 @@ spec:
 
 ## Next Steps
 
-- [Advanced IAM roles](/docs/guides/cross-account) - Use different IAM roles for different regions
-- [Create resources](/docs/guides/create-resource) - Learn about resource creation
+- [Advanced IAM roles](/guides/cross-account) - Use different IAM roles for different regions
+- [Create resources](/guides/create-resource) - Learn about resource creation

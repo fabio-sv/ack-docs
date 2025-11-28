@@ -11,7 +11,7 @@ This guide shows you how to create and manage AWS resources using ACK. We'll use
 Before creating resources, ensure:
 
 1. **ACK controller installed** - The controller for your service must be running (e.g., S3 controller for buckets)
-2. **IAM permissions configured** - Controller has appropriate AWS permissions ([see guide](/docs/guides/configure-iam))
+2. **IAM permissions configured** - Controller has appropriate AWS permissions ([see guide](/guides/configure-iam))
 3. **kubectl access** - You can run kubectl commands against your cluster
 
 ## Basic Resource Creation
@@ -169,11 +169,11 @@ kubectl delete bucket my-app-bucket
 kubectl delete table users-table
 ```
 
-By default, this also **deletes the AWS resource**. See [Deletion Policy](/docs/guides/deletion-policy) to change this behavior.
+By default, this also **deletes the AWS resource**. See [Deletion Policy](/guides/deletion-policy) to change this behavior.
 
 ## Next Steps
 
-- [Configure deletion policies](/docs/guides/deletion-policy) - Control what happens when resources are deleted
-- [Adopt existing AWS resources](/docs/guides/adoption) - Import pre-existing resources into ACK
-- [Use read-only mode](/docs/guides/readonly) - Observe resources without managing them
-- [Configure advanced IAM roles](/docs/guides/cross-account) - Use multiple IAM roles for different resources
+- [Configure deletion policies](/guides/deletion-policy) - Control what happens when resources are deleted
+- [Adopt existing AWS resources](/guides/adoption) - Import pre-existing resources into ACK
+- [Use read-only mode](/guides/readonly) - Observe resources without managing them
+- [Configure advanced IAM roles](/guides/cross-account) - Use multiple IAM roles for different resources

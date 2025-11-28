@@ -179,4 +179,4 @@ To use the recommended IAM policy for a given ACK service controller, refer to t
 
 Some services may need an additional inline policy. For example, the service controller may require `iam:PassRole` permission in order to pass an execution role that will be assumed by the AWS service. If applicable, resources for additional recommended policies will be located in the `recommended-inline-policy` file within the `config/iam` folder of a given ACK service controller's public repository. This inline policy is applied along with the managed policies when creating the role.
 
-See the [Configure IAM Permissions guide](/docs/guides/configure-iam) for instructions on creating an IAM role for your ACK service controller.
+See the [Configure IAM Permissions guide](/guides/configure-iam) for instructions on creating an IAM role for your ACK service controller.

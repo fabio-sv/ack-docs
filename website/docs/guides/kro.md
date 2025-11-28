@@ -168,5 +168,5 @@ This deletes the Deployment first, then the AWS resources (following ACK's delet
 ## Next Steps
 
 - [kro documentation](https://kro.run) - Full kro reference
-- [Create resources](/docs/guides/create-resource) - Learn about ACK resource lifecycle
-- [Deletion policies](/docs/guides/deletion-policy) - Control what happens when resources are deleted
+- [Create resources](/guides/create-resource) - Learn about ACK resource lifecycle
+- [Deletion policies](/guides/deletion-policy) - Control what happens when resources are deleted

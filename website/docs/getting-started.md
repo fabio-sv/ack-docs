@@ -32,6 +32,6 @@ Get started with ACK by installing a controller using Helm. ACK works on any Kub
 
 After installing your first controller, you can:
 
-- **Explore Features**: Learn about [resource adoption](/docs/guides/adoption), [cross-account management](/docs/guides/cross-account), and [deletion policies](/docs/guides/deletion-policy)
+- **Explore Features**: Learn about [resource adoption](/guides/adoption), [cross-account management](/guides/cross-account), and [deletion policies](/guides/deletion-policy)
 - **Browse Controllers**: Check out the [full list of available controllers](/services)
-- **Understand Concepts**: Read about [CRDs, reconciliation, and architecture](/docs/concepts)
+- **Understand Concepts**: Read about [CRDs, reconciliation, and architecture](/concepts)

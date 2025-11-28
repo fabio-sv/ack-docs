@@ -129,7 +129,7 @@ status:
     message: "Resource not found in AWS"
 ```
 
-ACK will **not create** the resource in read-only mode. To import an existing AWS resource into ACK management, see the [Resource Adoption guide](/docs/guides/adoption).
+ACK will **not create** the resource in read-only mode. To import an existing AWS resource into ACK management, see the [Resource Adoption guide](/guides/adoption).
 
 ### Changing Spec Fields
 
@@ -166,7 +166,7 @@ This overrides even `deletionPolicy: Delete`.
 
 ## ReadOnly vs Resource Adoption
 
-ReadOnly and [Resource Adoption](/docs/guides/adoption) are different:
+ReadOnly and [Resource Adoption](/guides/adoption) are different:
 
 | Feature | ReadOnly | Adoption |
 |---------|----------|----------|
@@ -179,7 +179,7 @@ ReadOnly and [Resource Adoption](/docs/guides/adoption) are different:
 **Adoption** imports an existing resource so ACK can **manage it** (update, delete).
 **ReadOnly** observes an existing resource but ACK **never manages it**.
 
-If you want to take over management of an existing AWS resource, see the [Resource Adoption guide](/docs/guides/adoption).
+If you want to take over management of an existing AWS resource, see the [Resource Adoption guide](/guides/adoption).
 
 You can combine both:
 
@@ -224,6 +224,6 @@ From this point forward, ACK only observes. Existing AWS state remains as-is.
 
 ## Next Steps
 
-- [Adopt existing resources](/docs/guides/adoption) - Take over management of AWS resources
-- [Configure deletion policies](/docs/guides/deletion-policy) - Control deletion behavior for managed resources
-- [Create resources](/docs/guides/create-resource) - Learn about full resource lifecycle management
+- [Adopt existing resources](/guides/adoption) - Take over management of AWS resources
+- [Configure deletion policies](/guides/deletion-policy) - Control deletion behavior for managed resources
+- [Create resources](/guides/create-resource) - Learn about full resource lifecycle management

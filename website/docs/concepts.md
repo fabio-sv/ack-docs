@@ -292,7 +292,7 @@ This separation allows you to:
 - Limit AWS permissions to only what the controller needs
 - Maintain audit trails in both Kubernetes and CloudTrail
 
-See the [Permissions Overview](/docs/guides/permissions) for the complete authorization model and [Configure IAM Permissions guide](/docs/guides/configure-iam) for setup instructions.
+See the [Permissions Overview](/guides/permissions) for the complete authorization model and [Configure IAM Permissions guide](/guides/configure-iam) for setup instructions.
 
 ## Spec Fields vs Annotations
 
@@ -320,7 +320,7 @@ metadata:
 
 Annotations can tweak behavior like using a different region, enabling `Force=true` during deletion API calls, adopting existing resources instead of creating new ones, or managing resources across AWS accounts. They can be set on individual resources or at the namespace level for inheritance.
 
-See the [Managing Resources](/docs/guides/create-resource) guides for detailed usage.
+See the [Managing Resources](/guides/create-resource) guides for detailed usage.
 
 ## Field References
 
@@ -401,8 +401,8 @@ Check the [Service Catalog](/services) to see each controller's current release 
 
 Now that you understand ACK's core concepts, continue with:
 
-- [Installation](/docs/getting-started-helm) - Install your first controller
-- [Managing Resources](/docs/guides/create-resource) - Learn common resource management patterns
-- [Authentication & Permissions](/docs/guides/permissions) - Set up IAM roles and RBAC
+- [Installation](/getting-started-helm) - Install your first controller
+- [Managing Resources](/guides/create-resource) - Learn common resource management patterns
+- [Authentication & Permissions](/guides/permissions) - Set up IAM roles and RBAC
 - [Service Catalog](/services) - Browse available AWS service controllers
 

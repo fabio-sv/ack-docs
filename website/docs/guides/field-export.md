@@ -113,5 +113,5 @@ spec:
 ## Next Steps
 
 - [Learn about kro](https://kro.run) - Resource orchestration for Kubernetes
-- [Create resources](/docs/guides/create-resource) - Learn about ACK resource lifecycle
+- [Create resources](/guides/create-resource) - Learn about ACK resource lifecycle
 - [API Reference](/services) - Find available fields for each resource type

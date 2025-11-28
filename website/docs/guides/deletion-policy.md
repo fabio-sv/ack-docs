@@ -186,6 +186,6 @@ Then delete normally: `kubectl delete bucket my-bucket`
 
 ## Next Steps
 
-- [Resource adoption](/docs/guides/adoption) - Re-import retained resources back into ACK
-- [ReadOnly resources](/docs/guides/readonly) - Observe resources without managing lifecycle
-- [Advanced IAM roles](/docs/guides/cross-account) - Use different deletion policies across accounts
+- [Resource adoption](/guides/adoption) - Re-import retained resources back into ACK
+- [ReadOnly resources](/guides/readonly) - Observe resources without managing lifecycle
+- [Advanced IAM roles](/guides/cross-account) - Use different deletion policies across accounts
