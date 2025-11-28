@@ -1,17 +1,9 @@
-## My Project
+# ACK Documentation
 
-TODO: Fill this README out!
+Source for the [ACK documentation website](https://aws-controllers-k8s.github.io/community/).
 
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
-
-## Security
-
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
-
-## License
-
-This project is licensed under the Apache-2.0 License.
-
+```bash
+make build    # Build the site
+make serve    # Serve locally
+make generate # Generate services and API reference data
+```
