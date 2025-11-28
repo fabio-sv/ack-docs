@@ -167,7 +167,7 @@ const config: Config = {
     prism: {
       theme: prismThemes.oceanicNext,
       darkTheme: prismThemes.vsLight,
-      additionalLanguages: ["yaml", "bash"],
+      additionalLanguages: ["yaml", "bash", "go", "json"],
     },
   } satisfies Preset.ThemeConfig,
 };
