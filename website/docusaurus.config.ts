@@ -70,8 +70,8 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: "img/docusaurus-social-card.jpg",
+    // Social card for link previews (Twitter, Slack, etc.)
+    image: "img/ack-logo.png",
     announcementBar: {
       id: "under_development",
       content:
